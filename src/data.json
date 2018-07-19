@@ -1,0 +1,32 @@
+{
+    "count": 20,
+    "data":[
+        {
+            "question":"Ngày đầu gặp nhau em mặc áo màu gì",
+            "multichoice":false,
+            "answer":"Trắng"
+        },
+        {
+            "question":"bài hát đầu tiên 2 đứa nghe cùng nhau là",
+            "multichoice":false,
+            "answer":"twinkle"
+        },
+        {
+            "question":"“anh yêu em” viết trên phông nền gì",
+            "multichoice":true,
+            "answer":{
+                "data":["Hồng","Xanh","Vàng", "Xanh lá"],
+                "result":0
+            }
+        },
+        {
+            "question":"kỉ niệm 1 tháng yêu nhau ở",
+            "multichoice":true,
+            "answer":{
+                "data":["Heaven Cafe","Eden Cafe","Rooftop", "Dingtea"],
+                "result":1
+            }
+        }
+    ]
+}
+
