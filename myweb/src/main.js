@@ -7,7 +7,7 @@ import {
 import Home from "./home";
 import Stuff from "./stuff";
 import Contact from "./contact";
-import Stage0 from "./stage0";
+import Stage0 from "./stages/stage0/stage0";
  
 class Main extends Component {
   render() {
