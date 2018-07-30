@@ -21,7 +21,7 @@ function Transition(props) {
     return <Slide direction="up" {...props} />;
 }
 
-class Stage0 extends Component {
+class Stage1 extends Component {
     state = {
         open: false,
     };
@@ -31,7 +31,7 @@ class Stage0 extends Component {
     
     handleClose = () => {
         this.setState({ open: false });
-        this.props.history.push('/stage1');
+        this.props.history.push('/stage2');
     };
     
     
@@ -47,7 +47,7 @@ class Stage0 extends Component {
     }
     
     handleSubmit(event) {
-        if(this.state.value.toLowerCase() === data.data[0].answer.toLowerCase()){
+        if(this.state.value.toLowerCase() === data.data[1].answer.toLowerCase()){
             this.handleClickOpen();
         }else{
             alert("Sai rồiiiiiiiiiiii");
@@ -58,7 +58,7 @@ class Stage0 extends Component {
     render() {
         return (
             <div>
-                <p className="QuestionTitle">{data.data[0].question}</p>
+                <p className="QuestionTitle">{data.data[1].question}</p>
                 <FormControl fullWidth className={"margin"}>
                     <TextField
                         id="with-placeholder"
@@ -70,7 +70,7 @@ class Stage0 extends Component {
                 <FormControl fullWidth className={"margin"}>
                 
                     <Button variant="contained" color="secondary" onClick={this.handleSubmit}>
-                        Câu này quá dễ!
+                        Em xin chắc chắn!
                     </Button>
                 </FormControl>
                 <Dialog
@@ -85,7 +85,7 @@ class Stage0 extends Component {
                     </DialogTitle>
                     <DialogContent>
                         <DialogContentText id="alert-dialog-slide-description">
-                            Ngày đầu tiên gặp nhau, Mai mặc áo trắng, váy bò ngắn, và đi giày màu trắng!!!!.
+                            Chính là Twinke ~~~~ Và đó là lúc ở ngoài biển.
                         </DialogContentText>
                     </DialogContent>
                     <DialogActions>
@@ -99,4 +99,4 @@ class Stage0 extends Component {
     }
 }
 
-export default Stage0;
+export default Stage1;
