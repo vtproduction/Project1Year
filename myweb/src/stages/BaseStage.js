@@ -23,17 +23,9 @@ function Transition(props) {
     return <Slide direction="up" {...props} />;
 }
 
-class Stage0 extends Component {
+class BaseStage extends Component {
     state = {
         open: false,
-    };
-    handleClickOpen = () => {
-        this.setState({ open: true });
-    };
-    
-    handleClose = () => {
-        this.setState({ open: false });
-        this.props.history.push('/stage1');
     };
     
     
@@ -52,39 +44,14 @@ class Stage0 extends Component {
     
     handleSubmit(event) {
         if(this.state.value.toLowerCase() === data.data[0].answer.toLowerCase()){
-            //this.handleClickOpen();
             this.rightAnswerDialog.current.open();
         }else{
-            //alert("Sai rồiiiiiiiiiiii");
-            //this.state.showWrongDialog = true;
             this.wrongAnswerDialog.current.open();
         }
         event.preventDefault();
     }
     
-    render() {
-        return (
-            <div>
-                <p className="QuestionTitle">{data.data[0].question}</p>
-                <FormControl fullWidth className={"margin"}>
-                    <TextField
-                        id="with-placeholder"
-                        placeholder="Placeholder"
-                        onChange={this.handleChange}
-                        className="EditText"
-                        margin="normal"/>
-                </FormControl>
-                <FormControl fullWidth className={"margin"}>
-                
-                    <Button variant="contained" color="secondary" onClick={this.handleSubmit}>
-                        Câu này quá dễ!
-                    </Button>
-                </FormControl>
-                <WrongAnswerDialog ref={this.wrongAnswerDialog}/>
-                <RightAnswerDialog ref={this.rightAnswerDialog} title="Yeahhh" content="Yoooo" next="stage1"/>
-            </div>
-        );
-    }
+    
 }
 
-export default Stage0;
+export default BaseStage;

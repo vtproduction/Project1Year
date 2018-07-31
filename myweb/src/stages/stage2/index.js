@@ -14,6 +14,8 @@ import RadioGroup from '@material-ui/core/RadioGroup';
 import FormHelperText from '@material-ui/core/FormHelperText';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import FormLabel from '@material-ui/core/FormLabel';
+import WrongAnswerDialog from "../../component/wrongAnswer";
+import RightAnswerDialog from "../../component/rightAnswer";
 import "./styles.css";
 
 function Transition(props) {

@@ -15,6 +15,8 @@ import FormControl from "@material-ui/core/FormControl";
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import Slide from '@material-ui/core/Slide';
+import WrongAnswerDialog from "../../component/wrongAnswer";
+import RightAnswerDialog from "../../component/rightAnswer";
 import './styles.css';
 
 function Transition(props) {
