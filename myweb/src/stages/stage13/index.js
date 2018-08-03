@@ -11,9 +11,9 @@ import BaseStage from "../BaseStage";
 
 
 
-export default class Stage2 extends BaseStage {
+export default class Stage13 extends BaseStage {
     state = {
-        stageIndex: 2,
+        stageIndex: 13,
     };
     
     
@@ -43,4 +43,3 @@ export default class Stage2 extends BaseStage {
         );
     }
 }
-

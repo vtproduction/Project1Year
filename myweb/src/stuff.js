@@ -1,12 +1,7 @@
 import React, { Component } from "react";
 import {
-  Route,
-  NavLink,
-  Link,
-  HashRouter
+  Link
 } from "react-router-dom";
-import Home from "./home";
-import Contact from "./contact";
  
  
 class Stuff extends Component {

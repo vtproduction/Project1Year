@@ -2,16 +2,20 @@
     "count": 20,
     "data":[
         {
+            "id":0,
             "question":"Ngày đầu gặp nhau em mặc áo màu gì",
             "multichoice":false,
             "answer":"trắng"
         },
         {
+            "id":1,
             "question":"bài hát đầu tiên 2 đứa nghe cùng nhau là",
             "multichoice":false,
             "answer":"twinkle"
+
         },
         {
+            "id":2,
             "question":"“anh yêu em” viết trên phông nền gì",
             "multichoice":true,
             "answer":{
@@ -20,6 +24,7 @@
             }
         },
         {
+            "id":3,
             "question":"kỉ niệm 1 tháng yêu nhau ở",
             "multichoice":true,
             "answer":{
@@ -28,11 +33,13 @@
             }
         },
         {
+            "id":4,
             "question":"Trung và?",
             "multichoice":false,
             "answer":"Chi"
         },
         {
+            "id":5,
             "question":"“không được cắn vào?”",
             "multichoice":true,
             "answer":{
@@ -41,6 +48,7 @@
             }
         },
         {
+            "id":6,
             "question":"chúng ta đã đi chụp kỉ yếu cùng nhau mấy lần",
             "multichoice":true,
             "answer":{
@@ -49,16 +57,19 @@
             }
         },
         {
+            "id":7,
             "question":"váy em mặc hôm noel có 2 màu là?",
             "multichoice":false,
             "answer":"Đen, đỏ"
         },
         {
-            "question":"Cái hôm ở Nha Trang em mặc quần màu",
+            "id":8,
+            "question":"Cái đêm định mệnh sở Nha Trang em mặc quần màu",
             "multichoice":false,
-            "answer":"Xanh đậm"
+            "answer":"Xanh"
         },
         {
+            "id":9,
             "question":"có nhớ hôm này là hôm nào không ",
             "multichoice":false,
             "answer":"kỉ yếu Hạnh",
@@ -67,21 +78,25 @@
             }
         },
         {
+            "id":10,
             "question":"nơi chúng mình hẹn hò nhiều nhất",
             "multichoice":false,
-            "answer":"circle K"
+            "answer":"circleK"
         },
         {
+            "id":11,
             "question":"“Anh yêu Sao Mai…”",
             "multichoice":false,
-            "answer":"Yêu rất rất nhiềuK"
+            "answer":"Yêu rất rất nhiều"
         },
         {
+            "id":12,
             "question":"N <3 M",
             "multichoice":false,
             "answer":"0808"
         },
         {
+            "id":13,
             "question":"bức ảnh chụp chung đầu tiên của 2 đứa có thêm 1 người nữa là?",
             "multichoice":true,
             "answer":{
@@ -90,39 +105,46 @@
             }
         },
         {
+            "id":14,
             "question":"món quà đầu tiên anh tặng em gồm “All about Girls' Generation” và?",
             "multichoice":true,
             "answer":{
-                "data":["Paparazzi / Mr Taxi / Gee / I got a boy"],
+                "data":["Paparazzi","Mr Taxi","Gee","I got a boy"],
                 "result":0
             }
         },
         {
+            "id":15,
             "question":"bộ phim đầu tiên chúng mình xem chung",
             "multichoice":false,
             "answer":"baby boss"
         },
         {
+            "id":16,
             "question":"Concert of …..",
             "multichoice":false,
             "answer":"childhood memory"
         },
         {
+            "id":17,
             "question":"lần đầu tiên anh tặng chocolate cho em nhân dịp gì",
             "multichoice":false,
             "answer":"em đến tháng"
         },
         {
+            "id":18,
             "question":"ngày đầu tiên anh làm em khóc",
             "multichoice":false,
             "answer":"30/8/17"
         },
         {
+            "id":19,
             "question":"ngày đầu tiên em nói “em yêu anh“",
             "multichoice":false,
             "answer":"31/12/2017"
         },
         {
+            "id":20,
             "question":"Anh yêu em",
             "multichoice":false,
             "answer":"Em yêu anh"
