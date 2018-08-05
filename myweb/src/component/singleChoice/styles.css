@@ -1,0 +1,23 @@
+.showImg{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.hideImg{
+    display: none;
+}
+
+.container{
+    padding: 20px;
+}
+
+.margin{
+    margin-top: 20px !important;
+    text-align: center;
+}
+
+.content{
+    padding: 10px;
+    border-radius: 10px;
+}

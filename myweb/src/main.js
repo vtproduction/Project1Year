@@ -24,15 +24,15 @@ import Stage17 from "./stages/stage17";
 import Stage18 from "./stages/stage18";
 import Stage19 from "./stages/stage19";
 import Stage20 from "./stages/stage20";
+import Home from "./component/home";
+import Reward from "./component/reward";
 class Main extends Component {
     render() {
         return (
             <HashRouter>
                 <div>
-                    <h1>Simple SPA</h1>
-                    <div className="content">
-
-                        <Route exact path="/" component={Stage0}/>
+                    
+                        <Route exact path="/" component={Home}/>
                         <Route path="/stage0" component={Stage0}/>
                         <Route path="/stage1" component={Stage1}/>
                         <Route path="/stage2" component={Stage2}/>
@@ -54,8 +54,8 @@ class Main extends Component {
                         {<Route path="/stage18" component={Stage18}/>}
                         {<Route path="/stage19" component={Stage19}/>}
                         {<Route path="/stage20" component={Stage20}/>}
-                        
-                    </div>
+                        <Route path="/reward" component={Reward}/>
+                    
                 </div>
             </HashRouter>
         );

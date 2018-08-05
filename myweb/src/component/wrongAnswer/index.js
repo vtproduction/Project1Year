@@ -14,14 +14,22 @@ function Transition(props) {
 class WrongAnswerDialog extends Component {
     state = {
         open: false,
+        stageIndex: 0,
+        backToStage: 0
     };
-    open = () => {
-        this.setState({ open: true });
+    open = (index) => {
+        
+        var anchorStage = 0;
+        if(index < 5) anchorStage = 0;
+        else if(index >= 5 && index < 10) anchorStage = 5;
+        else if(index >= 10 && index < 15) anchorStage = 10;
+        else if(index >= 15 && index < 20) anchorStage = 15;
+        this.setState({ open: true, stageIndex: index, backToStage: anchorStage });
     };
     
     close = () => {
         this.setState({ open: false });
-        window.location.assign('/stage0/');
+        window.location.assign('#/stage'+this.state.backToStage+'/');
     };
     
     
@@ -55,8 +63,8 @@ class WrongAnswerDialog extends Component {
                         </DialogContentText>
                     </DialogContent>
                     <DialogActions>
-                        <Button onClick={this.close} color="primary">
-                            Lại từ đầu nào!
+                        <Button onClick={this.close} color="secondary">
+                            Quay trở lại câu số {this.state.backToStage} nhé =)))
                         </Button>
                     </DialogActions>
                 </Dialog>

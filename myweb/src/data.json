@@ -5,13 +5,15 @@
             "id":0,
             "question":"Ngày đầu gặp nhau em mặc áo màu gì",
             "multichoice":false,
-            "answer":"trắng"
+            "answer":"trắng",
+            "placeholder":"Chỉ 1 từ thôi :D"
         },
         {
             "id":1,
             "question":"bài hát đầu tiên 2 đứa nghe cùng nhau là",
             "multichoice":false,
-            "answer":"twinkle"
+            "answer":"twinkle",
+            "placeholder":"bài này có 1 từuuu"
 
         },
         {
@@ -21,7 +23,8 @@
             "answer":{
                 "data":["Hồng","Xanh","Vàng", "Xanh lá"],
                 "result":0
-            }
+            },
+            "placeholder":""
         },
         {
             "id":3,
@@ -30,13 +33,15 @@
             "answer":{
                 "data":["Heaven Cafe","Eden Cafe","Rooftop", "Dingtea"],
                 "result":1
-            }
+            },
+            "placeholder":""
         },
         {
             "id":4,
             "question":"Trung và?",
             "multichoice":false,
-            "answer":"Chi"
+            "answer":"Chi",
+            "placeholder":"dễ v~"
         },
         {
             "id":5,
@@ -45,7 +50,8 @@
             "answer":{
                 "data":["Má","Mông","Ngón tay", "Trym"],
                 "result":2
-            }
+            },
+            "placeholder":""
         },
         {
             "id":6,
@@ -54,19 +60,22 @@
             "answer":{
                 "data":["3","4","5", "6"],
                 "result":2
-            }
+            },
+            "placeholder":""
         },
         {
             "id":7,
             "question":"váy em mặc hôm noel có 2 màu là?",
             "multichoice":false,
-            "answer":"Đen, đỏ"
+            "answer":"Đen đỏ",
+            "placeholder":"2 từ, đáp án có 2 từ \\m/"
         },
         {
             "id":8,
-            "question":"Cái đêm định mệnh sở Nha Trang em mặc quần màu",
+            "question":"Cái đêm định mệnh ở Nha Trang em mặc quần màu",
             "multichoice":false,
-            "answer":"Xanh"
+            "answer":"Xanh",
+            "placeholder":"1 từ thôi nhé =)))"
         },
         {
             "id":9,
@@ -75,34 +84,39 @@
             "answer":"kỉ yếu Hạnh",
             "metadata":{
                 "img":"IMG_5084.JPG"
-            }
+            },
+            "placeholder":"câu này khó, 3 từ nhéee"
         },
         {
             "id":10,
             "question":"nơi chúng mình hẹn hò nhiều nhất",
             "multichoice":false,
-            "answer":"circleK"
+            "answer":"circleK",
+            "placeholder":"1 từ duy nhất, 1 từ duy nhất"
         },
         {
             "id":11,
             "question":"“Anh yêu Sao Mai…”",
             "multichoice":false,
-            "answer":"Yêu rất rất nhiều"
+            "answer":"Yêu rất rất nhiều",
+            "placeholder":"4 từuuu"
         },
         {
             "id":12,
             "question":"N <3 M",
             "multichoice":false,
-            "answer":"0808"
+            "answer":"0808",
+            "placeholder":"1 từ 4 chữ :D"
         },
         {
             "id":13,
             "question":"bức ảnh chụp chung đầu tiên của 2 đứa có thêm 1 người nữa là?",
             "multichoice":true,
             "answer":{
-                "data":["Giang Anh","Nhung","Bò", "Bùm"],
-                "result":0
-            }
+                "data":["Bò","Hoàng","Giang Anh","Nhung", "Bùm"],
+                "result":2
+            },
+            "placeholder":""
         },
         {
             "id":14,
@@ -111,43 +125,50 @@
             "answer":{
                 "data":["Paparazzi","Mr Taxi","Gee","I got a boy"],
                 "result":0
-            }
+            },
+            "placeholder":""
         },
         {
             "id":15,
             "question":"bộ phim đầu tiên chúng mình xem chung",
             "multichoice":false,
-            "answer":"baby boss"
+            "answer":"baby boss",
+            "placeholder":"Có 2 từuuuu"
         },
         {
             "id":16,
             "question":"Concert of …..",
             "multichoice":false,
-            "answer":"childhood memory"
+            "answer":"childhood memory",
+            "placeholder":"2 từ, 2 từ"
         },
         {
             "id":17,
             "question":"lần đầu tiên anh tặng chocolate cho em nhân dịp gì",
             "multichoice":false,
-            "answer":"em đến tháng"
+            "answer":"em đến tháng",
+            "placeholder":"khó v~ =)) 3 từ nhé babyyy"
         },
         {
             "id":18,
             "question":"ngày đầu tiên anh làm em khóc",
             "multichoice":false,
-            "answer":"30/8/17"
+            "answer":"30/8/2017",
+            "placeholder":"gõ đúng nhé, vd: 25/2/2015"
         },
         {
             "id":19,
             "question":"ngày đầu tiên em nói “em yêu anh“",
             "multichoice":false,
-            "answer":"31/12/2017"
+            "answer":"31/12/2017",
+            "placeholder":"như câu trước =))"
         },
         {
             "id":20,
             "question":"Anh yêu em",
             "multichoice":false,
-            "answer":"Em yêu anh"
+            "answer":"Em yêu anh",
+            "placeholder":"tự giải đi =)))"
         }
     
     ]
